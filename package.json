@@ -1,0 +1,36 @@
+{
+  "name": "splurk",
+  "version": "0.1.0",
+  "description": "A local-first markdown knowledge base with visual graph — built on Electron",
+  "main": "main/main.js",
+  "scripts": {
+    "start": "node build.js && electron .",
+    "dev": "electron . --dev",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.10.2",
+    "@codemirror/lang-markdown": "^6.5.0",
+    "@codemirror/language": "^6.12.2",
+    "@codemirror/language-data": "^6.5.2",
+    "@codemirror/state": "^6.5.4",
+    "@codemirror/theme-one-dark": "^6.1.3",
+    "@codemirror/view": "^6.39.16",
+    "force-graph": "^1.51.1",
+    "marked": "^17.0.4",
+    "roughjs": "^4.6.6",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "esbuild": "^0.27.3"
+  },
+  "keywords": [
+    "markdown",
+    "notes",
+    "graph",
+    "electron"
+  ],
+  "author": "you",
+  "license": "MIT"
+}
